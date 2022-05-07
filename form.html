@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Forms </h1>
+  
+  <form action="#" id ="details">
+    <label for="fName">First Name</label><br>
+    <input type="text" id="fName" required>
+    <br><br>
+    <label for="lName">Last Name</label><br>
+    <input type="text" id="lName" required>
+    <br><br>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" required>
+    <br><br>
+    <label for="age">Your Age</label><br>
+    <input type="number" id="age" required>
+    <br><br>
+    <label for="dob">Date of Birth</label><br>
+    <input type="date" id="dob" required>
+    <br><br>
+  </form>
+  
+  <form id="moreInfo">
+    <p>Vanilla is the best Ice Cream flavour. </p>
+    <br>
+    <input type="radio" id="true" name="bestIceCream">
+    <label for="true">True</label>
+    <input type="radio" id="false" name="bestIceCream">
+    <label for="false">False</label>
+    <br><br>
+    <p>Colours you like, Tick below.</p>
+    <br>
+    <input type="checkbox" name="colours" id="colourR">
+    <label for="colourR">Red</label>
+    <input type="checkbox" name="colours" id="colourG">
+    <label for="colourG">Green</label>
+    <input type="checkbox" name="colours" id="colourY">
+    <label for="colourY">Yellow</label>
+    <input type="checkbox" name="colours" id="colourB">
+    <label for="colourB">Blue</label>
+    <br><br>
+
+    <p>What animal makes the best pet?</p>
+    <br>
+    <select name="pet" id="">
+      <option value="">Dog</option>
+      <option value="">Cat</option>
+      <option value="">Hamster</option>
+      <option value="">Pig</option>
+      <option value="">Tiger</option>
+    </select>
+  </form>
+  
+  <br>
+  <form action="https://www.google.com/search?" target="_blank" id="informUs">
+    <p>How did you find out about us?</p> <br>
+    <input type="radio" id="instagram" name="findOut">
+    <label for="instagram">Instagram</label>
+    <input type="radio" id="facebook" name="findOut">
+    <label for="facebook">facebook</label>
+    <input type="radio" id="wom" name="findOut">
+    <label for="wom">Word of Mouth</label>
+    <br><br>
+    <label for="comment">Comments</label><br><br>
+    <textarea name="" id="comment" cols="40" rows="7"></textarea>
+    <br><br>
+    <button>submit</button>
+  </form>
+
+</body>
+</html>
